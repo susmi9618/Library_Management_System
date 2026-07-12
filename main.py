@@ -1,4 +1,9 @@
 books = []
+try:
+    with open("books.txt", "r") as file:
+        books = file.read().splitlines()
+except FileNotFoundError:
+    pass
 
 while True:
     print("\n===== Library Management System =====")
@@ -14,6 +19,8 @@ while True:
     if choice == "1":
         book = input("Enter Book Name: ")
         books.append(book)
+        with open("books.txt", "w") as file:
+            file.write(book + "\n")
         print("Book added successfully!")
 
     elif choice == "2":
