@@ -31,4 +31,4 @@ python main.py
 ## Author
 **Ramireddy Susmitha**
 ## Project Screenshot
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fa54e395-976c-4c92-982e-fcd2db08c0b1" />
+<img width="1558" height="1024" alt="WhatsApp Image 2026-07-12 at 2 27 03 PM" src="https://github.com/user-attachments/assets/f09acfaa-0c54-4c01-96ed-4c6f9f6221db" />
