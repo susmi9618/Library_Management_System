@@ -1,3 +1,4 @@
+
 # Library Management System
 
 A simple Library Management System developed using Python.
@@ -5,19 +6,23 @@ A simple Library Management System developed using Python.
 ## Features
 - Add Book
 - View Books
-- Exit Program
+- Search Book
+- Delete Book
+- Update Book
+- Save Books Permanently using File Handling
 
 ## Technologies Used
 - Python
 
 ## Project Description
-This project is a simple command-line application that allows users to manage books in a library. Users can add books, view the list of books, and exit the program. It is developed using Python for learning basic programming concepts.
+This project is a command-line based Library Management System developed using Python. It allows users to manage books by adding, viewing, searching, deleting, and updating book records.
+
+The project also uses file handling to store book data permanently, so the information remains available even after closing the program.
 
 ## How to Run
-1. Install Python on your computer.
+1. Install Python.
 2. Open the project in VS Code.
-3. Open the terminal.
-4. Run the following command:
+3. Run:
 
 ```bash
 python main.py
