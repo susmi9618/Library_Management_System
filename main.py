@@ -6,7 +6,8 @@ while True:
     print("2. View Books")
     print("3. Search Book")
     print("4. Delete Book")
-    print("5. Exit")
+    print("5. Update Book")
+    print("6. Exit")
 
     choice = input("Enter your choice: ")
 
@@ -39,6 +40,16 @@ while True:
             print("Book Not Found!")
 
     elif choice == "5":
+        update_book = input("Enter Book Name to Update: ")
+        if update_book in books:
+            books.remove(update_book)
+            new_book = input("Enter New Book Name: ")
+            books.append(new_book)
+            print("Book updated successfully!")
+        else:
+            print("Book Not Found!")
+
+    elif choice == "6":
         print("Thank you for using Library Management System!")
         break
 
