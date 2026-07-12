@@ -30,3 +30,5 @@ python main.py
 
 ## Author
 **Ramireddy Susmitha**
+## Project Screenshot
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fa54e395-976c-4c92-982e-fcd2db08c0b1" />
